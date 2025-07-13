@@ -43,7 +43,12 @@ const AdminSchema = new Schema({
     date:{
         type:Date,
         default:Date.now
-    }
+    },
+    isAdmin: {
+        type: Boolean,
+        default: true,
+        required: true,
+    },
 })
 
 module.exports = Admin = mongoose.model('admin',AdminSchema);

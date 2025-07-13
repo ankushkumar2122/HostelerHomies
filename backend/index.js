@@ -3,11 +3,13 @@ const connectDB = require('./utils/conn')
 const cors = require('cors')
 
 const app = express()
-const port = 3000
+const port = 3000;
+
 
 connectDB();
 app.use(cors({
-  origin: ['https://hostellerhomiess.netlify.app', 'http://localhost:5173','https://hosteller-homies-3jwk.vercel.app', 'https://hostellers-olive.vercel.app'],
+  origin: [ 'http://localhost:5173','https://hostelerhomies.vercel.app'
+],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
