@@ -71,10 +71,11 @@ function HeroSection() {
           </div> */}
          
           <div className="text-lg sm:text-xl md:text-2xl flex flex-col items-start mx-auto w-fit py-3 max-w-[90vw] break-words">
-            <span>AdminEmail: raushan@gmail.com</span>
+            <h1>Note: Since the backend is hosted on Render, it may take a few moments to respond.</h1>
+            <span>AdminEmail: admin@gmail.com</span>
             <span>AdminPassword: 123456789</span>
             <hr className="w-full my-2" />
-            <span>UserEmail: utkarsh@gmail.com</span>
+            <span>UserEmail: student@gmail.com</span>
             <span>UserPassword: 123456789</span>
           </div>
         </div>
