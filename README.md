@@ -9,7 +9,7 @@ A smart hostel and mess management system designed to streamline student and adm
 
 ## 🔗 Live Website
 
-🌐 [https://hosteller-homies-two.vercel.app](https://hosteller-homies-two.vercel.app)
+🌐 [https://hosteller-homies-two.vercel.app](https://hostelerhomies.vercel.app)
 
 ---
 
@@ -55,7 +55,7 @@ A smart hostel and mess management system designed to streamline student and adm
 
 ### 🔑 Login Page
 
-![Login Page](./client/src/assets/login.png) <!-- Replace with your actual image path -->
+![Login Page](./client/src/assets/login1.png) <!-- Replace with your actual image path -->
 
 ### 🛠 Admin Dashboard
 
