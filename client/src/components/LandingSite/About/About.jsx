@@ -2,6 +2,7 @@ import { TeamCard } from "./TeamMember";
 import Raushan from "/src/assets/RaushanImage.jpg";
 import Utkarsh from "/src/assets/utkarsh.png";
 import Ankush from "/src/assets/ankush.jpg";
+import Jay from "/src/assets/jay.jpg";
 function About() {
   const utkarsh = {
     name: "Utkarsh",
@@ -18,8 +19,7 @@ function About() {
   const jay = {
     name: "Jay",
     designation: "Full Stack Developer",
-    image:
-      "https://w7.pngwing.com/pngs/81/570/png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png",
+    image: Jay,
     linkedin: "https://www.linkedin.com/in/jay-kumar-b9b29125b/",
   };
   const ankush = {
@@ -31,14 +31,14 @@ function About() {
 
   return (
     <div style={{ backgroundColor: "#f3e8ff" }} className="min-h-screen ">
-     <h1 
-  className="font-bold text-center text-2xl sm:text-4xl lg:text-5xl pt-11  mt-16
+      <h1
+        className="font-bold text-center text-2xl sm:text-4xl lg:text-5xl pt-11  mt-16
     text-black hover:scale-105 transition-transform duration-300
     tracking-tight leading-tight
     mb-4 relative z-10"
->
-   Meet Our Team!
-</h1>
+      >
+        Meet Our Team!
+      </h1>
       <div className="py-2 sm:py-2 flex gap-10 flex-wrap justify-center items-center mt-0 ">
         <TeamCard member={utkarsh} />
         <TeamCard member={raushan} />
